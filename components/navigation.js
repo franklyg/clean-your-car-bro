@@ -64,17 +64,19 @@ class MainNavigation extends React.Component{
                   Logo
                 </a>
               </Link>
+
               <div className={`link-collection flex flex-col md:flex-row md:justify-end ${this.state.showHideSidenav}`}>
                 <div className="link-group pb-2 md:pb-0">
                   <div className="link-main flex flex-row grid grid-cols-4 md:grid-cols-none align-center px-6 md:px-0">
                     <svg xmlns="http://www.w3.org/2000/svg" className="link-arrow w-4 h-4 col-span-1 md:hidden" viewBox="0 0 24 24"><path d="M8.122 24l-4.122-4 8-8-8-8 4.122-4 11.878 12z"/></svg>
                     <Link href="/cranksets">
                       <a className="link-item px-0 md:px-3 col-span-3">
-                        Cranksets
+                        Interior Cleaning
                       </a>
                     </Link>
                   </div>
-                  <div className="link-dropdown md:py-6 px-6 md:px-3 md:w-48">
+
+                  {/*<div className="link-dropdown md:py-6 px-6 md:px-3 md:w-48">
                     <Link href="/cranksets/chains">
                       <a>Chains</a>
                     </Link>
@@ -87,7 +89,7 @@ class MainNavigation extends React.Component{
                     <Link href="/cranksets/bottom-brackets">
                       <a>Bottom Brackets</a>
                     </Link>
-                  </div>
+                  </div>*/}
                 </div>
 
                 <div className="link-group pb-2 md:pb-0">
@@ -95,11 +97,11 @@ class MainNavigation extends React.Component{
                     <svg xmlns="http://www.w3.org/2000/svg" className="link-arrow w-4 h-4 col-span-1 md:hidden" viewBox="0 0 24 24"><path d="M8.122 24l-4.122-4 8-8-8-8 4.122-4 11.878 12z"/></svg>
                     <Link href="/handlebars">
                       <a className="link-item px-0 md:px-3 col-span-3">
-                        Handlebars
+                        Interior Cleaning
                       </a>
                     </Link>
                   </div>
-                  <div className="link-dropdown md:py-6 px-6 md:pl-3 md:pr-12 md:w-48">
+                  {/*<div className="link-dropdown md:py-6 px-6 md:pl-3 md:pr-12 md:w-48">
                     <Link href="/handlebars/grips">
                       <a>Grips</a>
                     </Link>
@@ -115,75 +117,19 @@ class MainNavigation extends React.Component{
                     <Link href="/handlebars/headsets">
                       <a>Headsets</a>
                     </Link>
-                  </div>
+                  </div>*/}
                 </div>
-
-                <div className="link-group pb-2 md:pb-0">
-                  <div className="link-main flex flex-row grid grid-cols-4 md:grid-cols-none align-center px-6 md:px-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="link-arrow w-4 h-4 col-span-1 md:hidden" viewBox="0 0 24 24"><path d="M8.122 24l-4.122-4 8-8-8-8 4.122-4 11.878 12z"/></svg>
-                    <Link href="/saddles">
-                      <a className="link-item px-0 md:px-3 col-span-3">
-                        Saddles
-                      </a>
-                    </Link>
-                  </div>
-                  <div className="link-dropdown md:py-6 px-6 md:pl-3 md:pr-12 md:w-48">
-                    <Link href="/saddles/cushions">
-                      <a>Cushions</a>
-                    </Link>
-                    <Link href="/saddles/seatposts">
-                      <a>Seatposts</a>
-                    </Link>
-                  </div>
-                </div>
-
-                <div className="link-group pb-2 md:pb-0">
-                  <div className="link-main flex flex-row grid grid-cols-4 md:grid-cols-none align-center px-6 md:px-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="link-arrow w-4 h-4 col-span-1 md:hidden" viewBox="0 0 24 24"><path d="M8.122 24l-4.122-4 8-8-8-8 4.122-4 11.878 12z"/></svg>
-                    <Link href="/wheels">
-                      <a className="link-item px-0 md:px-3 col-span-3">
-                        Wheels
-                      </a>
-                    </Link>
-                  </div>
-                  <div className="link-dropdown md:py-6 px-6 md:pl-3 md:pr-12 md:w-48">
-                    <Link href="/wheels/tires">
-                      <a>Tires</a>
-                    </Link>
-                    <Link href="/wheels/rims">
-                      <a>Rims</a>
-                    </Link>
-                    <Link href="/wheels/brake-pads">
-                      <a>Brake Pads</a>
-                    </Link>
-                    <Link href="/wheels/tubes">
-                      <a>Tubes</a>
-                    </Link>
-                    <Link href="/wheels/hubs">
-                      <a>Hubs</a>
-                    </Link>
-                    <Link href="/wheels/spokes">
-                      <a>Spokes</a>
-                    </Link>
-                  </div>
-                </div>
-
-                {/*<Link href="/frames">
-                  <a className="link-item px-6 md:px-3">
-                    Frames
-                  </a>
-                </Link>*/}
 
                 <div className="link-group pb-2 md:pb-0">
                   <div className="link-main flex flex-row grid grid-cols-4 md:grid-cols-none align-center px-6 md:px-0">
                     <svg xmlns="http://www.w3.org/2000/svg" className="link-arrow w-4 h-4 col-span-1 md:hidden" viewBox="0 0 24 24"><path d="M8.122 24l-4.122-4 8-8-8-8 4.122-4 11.878 12z"/></svg>
                     <Link href="/accessories">
                       <a className="link-item px-0 md:px-3 col-span-3">
-                        Accessories
+                        Cleaning Accessories
                       </a>
                     </Link>
                   </div>
-                  <div className="link-dropdown md:py-6 px-6 md:pl-3 md:pr-12 md:w-48">
+                  {/*<div className="link-dropdown md:py-6 px-6 md:pl-3 md:pr-12 md:w-48">
                     <Link href="/accessories/bells">
                       <a>Bells</a>
                     </Link>
@@ -194,8 +140,9 @@ class MainNavigation extends React.Component{
                       <a>Lights</a>
                     </Link>
                   </div>
-                </div>
+                </div>*/}
               </div>
+
               <div className="flex flex-col justify-center">
                 <div className={`menu-button w-8 ${this.state.showHideSidenav}`} onClick={this.mobileMenu.bind(this)}>
                   <span className="bar h-1 mb-1"></span>
@@ -205,9 +152,10 @@ class MainNavigation extends React.Component{
               </div>
               <div className={`navigation-overlay ${this.state.showHideSidenav}`} onClick={this.mobileMenu.bind(this)}></div>
             </div>
-          </Container>
+          </div>
+        </Container>
 
-        </nav>
+      </nav>
     )
   }
   mobileMenu() {
