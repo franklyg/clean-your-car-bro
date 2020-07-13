@@ -69,7 +69,7 @@ class MainNavigation extends React.Component{
                 <div className="link-group pb-2 md:pb-0">
                   <div className="link-main flex flex-row grid grid-cols-4 md:grid-cols-none align-center px-6 md:px-0">
                     <svg xmlns="http://www.w3.org/2000/svg" className="link-arrow w-4 h-4 col-span-1 md:hidden" viewBox="0 0 24 24"><path d="M8.122 24l-4.122-4 8-8-8-8 4.122-4 11.878 12z"/></svg>
-                    <Link href="/cranksets">
+                    <Link href="/interior-cleaning">
                       <a className="link-item px-0 md:px-3 col-span-3">
                         Interior Cleaning
                       </a>
@@ -95,7 +95,7 @@ class MainNavigation extends React.Component{
                 <div className="link-group pb-2 md:pb-0">
                   <div className="link-main flex flex-row grid grid-cols-4 md:grid-cols-none align-center px-6 md:px-0">
                     <svg xmlns="http://www.w3.org/2000/svg" className="link-arrow w-4 h-4 col-span-1 md:hidden" viewBox="0 0 24 24"><path d="M8.122 24l-4.122-4 8-8-8-8 4.122-4 11.878 12z"/></svg>
-                    <Link href="/handlebars">
+                    <Link href="/exterior-cleaning">
                       <a className="link-item px-0 md:px-3 col-span-3">
                         Interior Cleaning
                       </a>
@@ -123,7 +123,7 @@ class MainNavigation extends React.Component{
                 <div className="link-group pb-2 md:pb-0">
                   <div className="link-main flex flex-row grid grid-cols-4 md:grid-cols-none align-center px-6 md:px-0">
                     <svg xmlns="http://www.w3.org/2000/svg" className="link-arrow w-4 h-4 col-span-1 md:hidden" viewBox="0 0 24 24"><path d="M8.122 24l-4.122-4 8-8-8-8 4.122-4 11.878 12z"/></svg>
-                    <Link href="/accessories">
+                    <Link href="/cleaning-accessories">
                       <a className="link-item px-0 md:px-3 col-span-3">
                         Cleaning Accessories
                       </a>

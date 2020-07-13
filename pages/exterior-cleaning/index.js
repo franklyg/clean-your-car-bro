@@ -52,7 +52,7 @@ export default function Index({allPosts}){
               </Link>*/}
             </div>
             {
-              morePosts.length > 0 && <ProductPage posts={morePosts} uidName="interior-cleaning" apiName="Interior_cleaning" />
+              morePosts.length > 0 && <ProductPage posts={morePosts} uidName="exterior-cleaning" apiName="Exterior_cleaning" />
             }
           </Container>
         </Layout>
