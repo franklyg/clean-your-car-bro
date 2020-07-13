@@ -6,16 +6,16 @@ import {RichText} from 'prismic-reactjs';
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 import LazyLoad from 'react-lazyload';
 
-import ReactGA from 'react-ga';
-const trackingId = "UA-171559296-1"; // Replace with your Google Analytics tracking ID
+// import ReactGA from 'react-ga';
+// const trackingId = "UA-171559296-1"; // Replace with your Google Analytics tracking ID
 
+// ReactGA.initialize(trackingId);
+// ReactGA.pageview('/'+this.props.uidName);
 
 class ProductCard extends React.Component{
 
   render(){
     const { posts, ...props } = this.props;
-    ReactGA.initialize(trackingId);
-    ReactGA.pageview('/'+this.props.uidName);
 
     const allPostContent = posts.map(function(post, postIndex){
 
