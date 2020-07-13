@@ -2,15 +2,15 @@
 export const linkResolver = (doc) => {
 
   if (doc.type === 'interior-cleaning') {
-    return `/interior-cleaning/${doc.uid}`
+    return `/interior-cleaning`
   }
 
   if (doc.type === 'exterior-cleaning') {
-    return `/exterior-cleaning/${doc.uid}`
+    return `/exterior-cleaning`
   }
 
   if (doc.type === 'cleaning-accessories') {
-    return `/cleaning-accessories/${doc.uid}`
+    return `/cleaning-accessories`
   }
   // Backup for all other types
   return '/'

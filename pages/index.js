@@ -15,7 +15,7 @@ import { indexPageQuery } from '../lib/api'
 // import ReactGA from 'react-ga';
 // const trackingId = "UA-171559296-1"; // Replace with your Google Analytics tracking ID
 
-class ProductCard extends React.Component{
+class IndexPage extends React.Component{
 
   constructor(props) {
     super(props);
@@ -178,7 +178,7 @@ class ProductCard extends React.Component{
   }
 }
 
-export default ProductCard;
+export default IndexPage;
 
 export async function getStaticProps({ preview = false, previewData }) {
   const allPosts = await indexPageQuery(previewData)

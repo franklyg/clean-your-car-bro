@@ -2,9 +2,19 @@ import { PrismicClient } from '../../lib/api'
 
 function linkResolver(doc) {
   // Pretty URLs for known types
-  if (doc.type === 'post') {
-    return `/posts/${doc.uid}`
+  if (doc.type === 'interior-cleaning') {
+    return `/interior-cleaning`
   }
+
+  if (doc.type === 'exterior-cleaning') {
+    return `/exterior-cleaning`
+  }
+
+  if (doc.type === 'cleaning-accessories') {
+    return `/cleaning-accessories`
+  }
+  // Backup for all other types
+  return '/'
 
   // Fallback for other types, in case new custom types get created
   return `/${doc.uid}`
