@@ -1,0 +1,50 @@
+{
+  "Main" : {
+    "body" : {
+      "type" : "Slices",
+      "fieldset" : "Slice zone",
+      "config" : {
+        "labels" : {
+          "image" : [ {
+            "name" : "product_card",
+            "display" : "product card"
+          } ]
+        },
+        "choices" : {
+          "image" : {
+            "type" : "Slice",
+            "fieldset" : "product card",
+            "description" : "add in product image",
+            "icon" : "add_box",
+            "display" : "grid",
+            "non-repeat" : { },
+            "repeat" : {
+              "product_card_image" : {
+                "type" : "Image",
+                "config" : {
+                  "constraint" : { },
+                  "thumbnails" : [ ],
+                  "label" : "product card image"
+                }
+              },
+              "product_card_title" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+                  "label" : "product card title"
+                }
+              },
+              "product_card_price" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "multi" : "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                  "label" : "product card price"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

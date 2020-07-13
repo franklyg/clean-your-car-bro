@@ -1,0 +1,153 @@
+{
+  "Main" : {
+    "page_title" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label" : "page title"
+      }
+    },
+    "uid" : {
+      "type" : "UID",
+      "config" : {
+        "label" : "slug"
+      }
+    },
+    "body" : {
+      "type" : "Slices",
+      "fieldset" : "Slice zone",
+      "config" : {
+        "labels" : {
+          "product_card" : [ {
+            "name" : "product_card",
+            "display" : "product card"
+          } ],
+          "product_page_specific_link" : [ {
+            "name" : "specific_product_page",
+            "display" : "Specific Product Page"
+          } ],
+          "page_online_advert" : [ {
+            "name" : "page_online_advert",
+            "display" : "page online advert"
+          } ],
+          "page_title" : [ ],
+          "embed_online_advert" : [ {
+            "name" : "embed_online_advert",
+            "display" : "embed online advert"
+          } ]
+        },
+        "choices" : {
+          "product_card" : {
+            "type" : "Slice",
+            "fieldset" : "Product Card",
+            "description" : "Creates new product card.",
+            "icon" : "add_box",
+            "display" : "grid",
+            "non-repeat" : { },
+            "repeat" : {
+              "product_card_image" : {
+                "type" : "Image",
+                "config" : {
+                  "constraint" : { },
+                  "thumbnails" : [ ],
+                  "label" : "product card image"
+                }
+              },
+              "product_card_title" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+                  "label" : "product card title"
+                }
+              },
+              "product_card_price" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "multi" : "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                  "label" : "product card price"
+                }
+              },
+              "product_card_link" : {
+                "type" : "Link",
+                "config" : {
+                  "label" : "product card link",
+                  "allowTargetBlank" : true
+                }
+              },
+              "product_card_date" : {
+                "type" : "Date",
+                "config" : {
+                  "label" : "product card date"
+                }
+              }
+            }
+          },
+          "product_page_specific_link" : {
+            "type" : "Slice",
+            "fieldset" : "Product Page Specific Link",
+            "description" : "Two column box that takes you to a specific page on the site.",
+            "icon" : "add_box",
+            "display" : "list",
+            "non-repeat" : { },
+            "repeat" : {
+              "product_image" : {
+                "type" : "Image",
+                "config" : {
+                  "constraint" : { },
+                  "thumbnails" : [ ],
+                  "label" : "product image"
+                }
+              },
+              "product_page_title" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "multi" : "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                  "label" : "product page title"
+                }
+              },
+              "product_page_link" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "multi" : "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                  "label" : "product page link"
+                }
+              }
+            }
+          },
+          "page_online_advert" : {
+            "type" : "Slice",
+            "fieldset" : "Page Online Advert",
+            "description" : "Addition of online advert to page",
+            "icon" : "monetization_on",
+            "display" : "list",
+            "non-repeat" : { },
+            "repeat" : {
+              "page_advert_image_desktop" : {
+                "type" : "Image",
+                "config" : {
+                  "constraint" : { },
+                  "thumbnails" : [ ],
+                  "label" : "page advert image desktop"
+                }
+              },
+              "page_advert_image_mobile" : {
+                "type" : "Image",
+                "config" : {
+                  "constraint" : { },
+                  "thumbnails" : [ ],
+                  "label" : "page advert image mobile"
+                }
+              },
+              "page_advert_link" : {
+                "type" : "Link",
+                "config" : {
+                  "label" : "page advert link"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
