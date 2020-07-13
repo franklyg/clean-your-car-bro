@@ -6,7 +6,7 @@ import CoverImage from '../../components/cover-image'
 import {RichText} from 'prismic-reactjs';
 
 import { linkResolver } from '../../prismic-config';
-import { productAccessoriesPageQuery } from '../../lib/api';
+import { exteriorCleaningPageQuery } from '../../lib/api';
 
 import ProductPage from '../../components/product-page'
 
@@ -62,7 +62,7 @@ export default function Index({allPosts}){
 }
 
 export async function getStaticProps({ preview = false, previewData }) {
-  const allPosts = await productAccessoriesPageQuery(previewData)
+  const allPosts = await exteriorCleaningPageQuery(previewData)
   return {
     props: { preview, allPosts },
   }

@@ -97,7 +97,7 @@ class MainNavigation extends React.Component{
                     <svg xmlns="http://www.w3.org/2000/svg" className="link-arrow w-4 h-4 col-span-1 md:hidden" viewBox="0 0 24 24"><path d="M8.122 24l-4.122-4 8-8-8-8 4.122-4 11.878 12z"/></svg>
                     <Link href="/exterior-cleaning">
                       <a className="link-item px-0 md:px-3 col-span-3">
-                        Interior Cleaning
+                        Exterior Cleaning
                       </a>
                     </Link>
                   </div>
