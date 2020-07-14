@@ -208,7 +208,7 @@ body{
   text-shadow: 1px 1px 0 rgba(0,0,0,.2);
 }
 .product-card-image .image img{
-  width: 100%;
+  height: 100%;
   position: absolute;
   top: 0;
   right: 0;
@@ -220,13 +220,9 @@ body{
 .buy-tag{
   position: absolute;
   top: 0;
-  right: -100%;
+  right: 0;
   background: #f16868;
   color: #fff;
-}
-.product-card:hover .buy-tag{
-  right: 0;
-  transition: all .5s;
 }
 
 

@@ -38,7 +38,7 @@ class IndexPage extends React.Component{
           const productCardItem = [slice].map(function(productRow, productRowIndex){
 
             return(
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 col-gap-4 row-gap-4 md:row-gap-6 mb-6" key={productRowIndex}>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 col-gap-4 row-gap-4 md:row-gap-6 mb-6" key={productRowIndex}>
                 {productRow.fields.map(function(card, cardIndex){
                   return(
                     <a href={card.product_card_link.url} className="shadow-small product-card hover:shadow-medium transition-shadow duration-200 border-solid border-2 border-gray-100 " key={cardIndex} target="_blank">

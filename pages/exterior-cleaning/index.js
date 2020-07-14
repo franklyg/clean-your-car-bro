@@ -18,7 +18,7 @@ export default function Index({allPosts}){
       <>
         <Layout>
           <Container>
-            <h1 className="main-headline text-6xl font-bold mb-8 pt-10 mb-8">accessories.</h1>
+            <h1 className="main-headline text-6xl font-bold mb-8 pt-10 mb-8">exterior cleaning.</h1>
             {
               morePosts.length > 0 && <ProductPage posts={morePosts} uidName="exterior-cleaning" apiName="Exterior_cleaning" />
             }
