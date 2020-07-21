@@ -96,7 +96,7 @@ class MainNavigation extends React.Component{
                     </Link>
                   </div>*/}
                 </div>
-                
+
                 <div className="link-group pb-2 md:pb-0">
                   <div className="link-main flex flex-row grid grid-cols-4 md:grid-cols-none align-center px-6 md:px-0">
                     <svg xmlns="http://www.w3.org/2000/svg" className="link-arrow w-4 h-4 col-span-1 md:hidden" viewBox="0 0 24 24"><path d="M8.122 24l-4.122-4 8-8-8-8 4.122-4 11.878 12z"/></svg>
@@ -145,17 +145,16 @@ class MainNavigation extends React.Component{
                   </div>
                 </div>*/}
               </div>
-
-              <div className="flex flex-col justify-center">
-                <div className={`menu-button w-8 ${this.state.showHideSidenav}`} onClick={this.mobileMenu.bind(this)}>
-                  <span className="bar h-1 mb-1"></span>
-                  <span className="bar h-1 mb-1"></span>
-                  <span className="bar h-1 mb-1"></span>
-                </div>
-              </div>
-              <div className={`navigation-overlay ${this.state.showHideSidenav}`} onClick={this.mobileMenu.bind(this)}></div>
+          </div>
+          <div className="flex flex-col justify-center">
+            <div className={`menu-button w-8 ${this.state.showHideSidenav}`} onClick={this.mobileMenu.bind(this)}>
+              <span className="bar h-1 mb-1"></span>
+              <span className="bar h-1 mb-1"></span>
+              <span className="bar h-1 mb-1"></span>
             </div>
           </div>
+          <div className={`navigation-overlay ${this.state.showHideSidenav}`} onClick={this.mobileMenu.bind(this)}></div>
+        </div>
         </Container>
 
       </nav>

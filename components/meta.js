@@ -4,7 +4,7 @@ import { CMS_NAME, HOME_OG_IMAGE_URL } from '../lib/constants'
 export default function Meta() {
   return (
     <Head>
-      <title>Clean Your Car Bro</title>
+      <title>Clean Your Car, Bro</title>
       <link
         rel="apple-touch-icon"
         sizes="180x180"
@@ -35,7 +35,7 @@ export default function Meta() {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
         name="description"
-        content={`I Need Bike Parts - A place for bikes parts`}
+        content={`Clean Your Car, Bro - A place for your car cleaning essentials`}
       />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
     </Head>

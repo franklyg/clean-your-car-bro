@@ -10,7 +10,7 @@ export default function PrivacyPolicy() {
           <div className="footer-pages">
             <h1 className="main-headline text-6xl font-bold mb-8 pt-10 mb-8">privacy policy.</h1>
             <h2>1. Introduction</h2>
-            <p><b>1.1</b> I Need Bike Parts (“Company,” or “we,” or “us,” or “our”) is committed to safeguarding the privacy of our website and service users (“users,” or “you”).</p>
+            <p><b>1.1</b> Clean Your Car, Bro (“Company,” or “we,” or “us,” or “our”) is committed to safeguarding the privacy of our website and service users (“users,” or “you”).</p>
             <p><b>1.2</b> This policy applies where we are acting as a data controller with respect to your personal data, in other words, where we determine the purposes and means of the processing of that personal data.</p>
             <p><b>1.3</b> Terms of Service. Use of the Company Service is subject to the terms of our Terms of Service through our online form, which is hereby incorporated and made part of this Privacy Policy. By using the Company Service, you agree to be bound by our Terms of Service.</p>
             <p><b>1.4</b> Your use of the Company Service is subject to the terms and conditions set forth in this Privacy Policy (the “Privacy Policy”).</p>
@@ -130,7 +130,7 @@ export default function PrivacyPolicy() {
             <h2>13. Notice of Privacy Rights to California Residents.</h2>
             <p>California law requires that we provide you with a summary of your privacy rights under the California Online Privacy Protection Act (“COPPA”) and the California Business and Professions Code. As required by COPPA, we will provide you with the categories of Personally Identifiable Information that we collect through the Company Service and the categories of third party persons or entities with whom such Personally Identifiable Information may be shared for direct marketing purposes at your request. California law requires us to inform you, at your request, (1) the categories of Personally Identifiable Information we collect and what third parties we share that information with; (2) the names and addresses of those third parties; and (3) examples of the products marketed by those companies. COPPA further requires us to allow you to control who you do not want us to share that information with. To obtain this information, please send a request by email or physical mail to the address found below. When contacting us, please indicate your name, address, email address, and what Personally Identifiable Information you do not want us to share with our marketing partners. The request should be sent to the attention of our legal department and labeled “California Customer Choice Notice.” Please allow 30 days for a response. Also, please note that there is no charge for controlling the sharing of your Personally Identifiable Information or requesting this notice.</p>
             <h2>14. Who can I ask if I have additional questions?</h2>
-            <p>For additional inquiries about the privacy of your information, you can contact us by emailing us at <a href="mailto:support@ineedbikeparts.com">support@ineedbikeparts.com</a>.</p>
+            <p>For additional inquiries about the privacy of your information, you can contact us by emailing us at <a href="mailto:support@cleanyourcarbro.com">support@cleanyourcarbro.com</a>.</p>
           </div>
         </Container>
       </Layout>

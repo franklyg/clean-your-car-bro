@@ -16,7 +16,7 @@ class Footer extends React.Component  {
 
   render(){
     return (
-      <footer className="bg-accent-1 border-t border-accent-2 py-20 mt-20">
+      <footer className="py-20 mt-20">
         <Container>
           <div className="flex grid grid-cols-1 md:grid-cols-2 row-gap-10 col-gap-10">
 
