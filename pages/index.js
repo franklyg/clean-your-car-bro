@@ -25,8 +25,8 @@ class IndexPage extends React.Component{
   }
 
   render() {
-    ReactGA.initialize(trackingId);
     ReactGA.pageview('/');
+    ReactGA.initialize(trackingId);
 
     if (this.state.document) {
       const document = this.state.document;
